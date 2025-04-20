@@ -1,69 +1,56 @@
-<h1 align="center">
-  <a href="https://safdarjamal.github.io/crud-app/">
-    CRUD App
-  </a>
-</h1>
+# 💼 Employee Management System
 
-<p align="center">
-  <a href="https://github.com/SafdarJamal/crud-app/actions?query=workflow%3A%22Node.js+CI%22">
-    <img src="https://github.com/SafdarJamal/crud-app/workflows/Node.js%20CI/badge.svg" alt="Node.js CI" />
-  </a>
-  <a href="https://github.com/SafdarJamal/crud-app/releases">
-    <img src="https://img.shields.io/github/v/release/SafdarJamal/crud-app" alt="GitHub Release (latest by date)" />
-  </a>
-  <a href="https://github.com/SafdarJamal/crud-app/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/SafdarJamal/crud-app" alt="License" />
-  </a>
-</p>
+A fully responsive and user-friendly **CRUD web application** built using the MERN stack (MongoDB, Express, React, Node.js).  
+This app allows users to **Create, Read, Update, and Delete employee records** — perfect for managing team data in a corporate setting.
 
-<p align="center">
-  A simple and beautiful <a href="https://www.codecademy.com/articles/what-is-crud">CRUD</a> application built with <a href="https://reactjs.org">React</a>.
-</p>
+---
 
-![crud-app](https://user-images.githubusercontent.com/48409548/94567114-8aa5ea80-0284-11eb-99f6-87401b099848.png)
+## ✨ Features
 
-## Technologies Used
+- 👤 Add new employees with proper form validation
+- 📋 View employee details in a clean UI table
+- ✏️ Edit employee information instantly
+- 🗑️ Delete records with confirmation alerts
+- 🔍 Built with a modular codebase for scalability
 
-- [React](http://reactjs.org)
-- [Primitive UI](https://taniarascia.github.io/primitive)
-- [SweetAlert2](https://sweetalert2.github.io)
+---
 
-## Development
+## 🚀 Tech Stack
 
-To get a local copy of the code, clone it using git:
+| Frontend  | Backend | Database | Styling |
+|-----------|---------|----------|---------|
+| React.js  | Node.js | MongoDB  | CSS / Bootstrap |
 
-```
-git clone https://github.com/SafdarJamal/crud-app.git
-cd crud-app
-```
+---
 
-Install dependencies:
+## ⚙️ Getting Started (Run Locally)
 
-```
+```bash
+# Clone the project
+git clone https://github.com/jasmineyadav7788/employee-management-app.git
+
+# Go to project directory
+cd employee-management-app
+
+# Install dependencies
 npm install
-```
 
-Now, you can start a local web server by running:
-
-```
+# Start the development server
 npm start
-```
+## 🔗 App URL
+App will run at: [http://localhost:3000](http://localhost:3000)
 
-and then you can open http://localhost:3000 to view it in the browser.
+---
 
-#### Available Scripts
+## 👩‍💻 Author
 
-| Script        | Description                                                             |
-| ------------- | ----------------------------------------------------------------------- |
-| npm start     | Runs the app in the development mode.                                   |
-| npm test      | Launches the test runner in the interactive watch mode.                 |
-| npm run build | Builds the app for production to the `build` folder.                    |
-| npm run eject | This command will remove the single build dependency from your project. |
+**Jasmine Yadav**  
+Final-year CSE Student | MERN Stack Developer  
+📍 Lucknow, India  
+🔗 [GitHub Profile](https://github.com/jasmineyadav7788)
 
-## Credits
+---
 
-CRUD App is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
+## 📄 License
 
-## License
-
-CRUD App is open-source software licensed under the [MIT License](https://github.com/SafdarJamal/crud-app/blob/master/LICENSE).
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
